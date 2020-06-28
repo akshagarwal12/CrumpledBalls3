@@ -18,8 +18,8 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paper=new Paper(100,200,70)
-	launch=new Launcher(paper.body,{x:50,y:200})
+	paper=new Paper(300,250,70)
+	launch=new Launcher(paper.body,{x:250,y:200})
 
 
 	
